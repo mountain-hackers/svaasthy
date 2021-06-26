@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+    <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Axios -->
+    <script defer src="node_modules/axios/dist/axios.min.js"></script>
+  
+    <script defer src="api.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon.ico">
+</head>
+
+<body style="background-color: #1eae98;">
+    <h2 class="container-fluid headingTop">Swasthya Org.</h2>
+    <div class="container-fluid Registeration-form">
+        <form action=" " method="" autocomplete="off">
+            <input autocomplete="false" name="hidden" type="text" style="display:none;">
+            <fieldset>
+                <legend>
+                    <h1 class="formHeading">Registration Form</h1>
+                </legend>
+                <label for="name" class="labelText">
+                    <input type="text" autocomplete="new-username" class="input name" name="username" placeholder="USERNAME" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label for="name" class="labelText">
+                    <input type="text" class="input name" name="firstName" placeholder="FIRST NAME" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="text" class="input name" name="middleName" placeholder="MIDDLE NAME" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="text" class="input name" name="lastName" placeholder="LAST NAME" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="email" autocomplete="new-email" class="input name" name="email" placeholder="EMAIL" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="password" autocomplete="new-password" class="input name" name="password" placeholder="PASSWORD" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+                <br>
+                <label for="DOB" class="labelText">Date of Birth:
+                    <input type="date" name="DOB" placeholder="Date of Birth">
+                </label>
+
+                <label for="Gender" class="labelText">Gender:
+                    <select name='gender'>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Transgender</option>
+                    </select>
+                </label>
+                <br>
+                <label class="labelText">
+                    <input type="text" class="input name" name="Ethnicity" placeholder="ETHNICITY" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="text" class="input name" name="guardian" placeholder="GUARDIAN'S NAME" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class='labelText' for="phone">
+                    <input type="tel" class="input" name="phone" placeholder="CONTACT NUMBER." />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="text" class="input" name="address" placeholder="RESIDENT ADDRESS" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+                <br>
+                <!-- <button type="submit">Submit</button> -->
+            </fieldset>
+        </form>
+    </div>
+
+
+    <div class="Registeration-form">
+
+        <form action=" " method="">
+            <fieldset>
+                <legend>
+                    <h1 class="formHeading">Medical <Section></Section>
+                    </h1>
+                </legend>
+                <label for="blood" class="labelText">
+                    <input type="text" class="input name" name="blood" placeholder="BLOOD GROUP" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="text" class="input name" name="medical" placeholder="MEDICAL CONDITIONS?" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="text" class="input name" name="COVID" placeholder="COVID-REPORT(+ve/-ve)" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="text" class="input name" name="COVIDREPORT" placeholder="CURED?(Y/N)" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="text" class="input name" name="COVIDVAC" placeholder="VACCINATED?(Y/N)" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+                <label for="phone">
+                    <input type="tel" class="input" name="phone-e" placeholder="EMERGENCY PHONE NO." />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+
+                <label class="labelText">
+                    <input type="text" class="input" name="allergies" placeholder="ALLERGIES" />
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+                <br>
+                <button id='submit' type="button">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+    <script async src="infoSection.js"></script>
+</body>
+
+</html>
