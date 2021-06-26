@@ -1,7 +1,7 @@
 FROM node:15
 
 WORKDIR /app
-ADD package*.json .
+ADD package*.json /app/
 
 RUN npm install --mode=production
 
