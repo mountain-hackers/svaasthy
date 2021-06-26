@@ -1,4 +1,4 @@
-var BACKEND_URI = `http://localhost:5000/`;
+var BACKEND_URI = `https://svaasthy.herokuapp.com/`;
 
 const getUserStatus = async () => {
 	const token = localStorage.getItem('user');

@@ -5,7 +5,7 @@ ADD package*.json /app/
 
 RUN npm install --mode=production
 
-ADD . .
+ADD . /app/
 
 EXPOSE 80
 
