@@ -31,4 +31,4 @@ npm start
 
 The application will be accessible on http://localhost:3000.
 
-# Made with ❤ by Kanak, Deepak, [Ankita](https://github.com/Ankita297), and [Param](https://www.paramsid.com).
+# Made with ❤ by [Kanak](https://github.com/kanak22), [Deepak](https://github.com/deeqakkk), [Ankita](https://github.com/Ankita297), and [Param](https://www.paramsid.com).
